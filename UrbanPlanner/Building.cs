@@ -19,10 +19,10 @@ namespace UrbanPlanner
         public double Volume { get { return Width * Depth * (3 * Stories); } }
         
         //Constructor
-        public Building(string address)
+        public Building(string address, string designer)
         {
             _address = address;
-            _designer = "Rob Bandstra";
+            _designer = designer;
         }
 
         //Methods
